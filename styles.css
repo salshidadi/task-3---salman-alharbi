@@ -1,0 +1,38 @@
+#artboard {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    height: 400px;
+    margin: 0 auto; 
+    background-color: #e0e0e0;
+}
+
+.shape {
+    position: absolute;
+}
+
+#house-base {
+    width: 200px;
+    height: 200px;
+    background-color: #8b4513; 
+    left: 200px;
+    top: 150px;
+}
+
+#roof {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #b22222; /* FireBrick */
+    top: 0;
+    left: 200px;
+}
+
+#door {
+    width: 50px;
+    height: 100px;
+    background-color: #654321; /* Dark Brown */
+    bottom: 50px;
+    left: 275px; /* Position the door at the center of the house base */
+}
